@@ -1,3 +1,7 @@
+---
+title: Configuration
+---
+
 # Configuration
 
 SOC AI Relay is configured using environment variables.
