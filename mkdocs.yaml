@@ -1,0 +1,29 @@
+site_name: SOC AI Relay
+site_description: Documentation for Hellnet SOC AI Relay
+site_url: https://docs.hellnet.com.br/soc-ai-relay/
+repo_url: https://github.com/hellnet-foundation/soc-ai-relay
+repo_name: hellnet-foundation/soc-ai-relay
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Setup: setup.md
+  - Configuration: configuration.md
+  - Deployment: deployment.md
+  - Security: security.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
