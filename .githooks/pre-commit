@@ -1,0 +1,30 @@
+#!/usr/bin/env sh
+set -eu
+
+echo "Running pre-commit checks..."
+
+GO_FILES="$(find . -name '*.go' -not -path './.git/*')"
+
+if [ -z "$GO_FILES" ]; then
+  echo "No Go files found. Skipping Go checks."
+  exit 0
+fi
+
+if ! command -v go >/dev/null 2>&1; then
+  echo "go not found in PATH"
+  exit 1
+fi
+
+echo "Running gofmt..."
+gofmt -w $GO_FILES
+
+echo "Running go mod tidy..."
+go mod tidy
+
+echo "Running go vet..."
+go vet ./...
+
+echo "Running go test..."
+go test ./...
+
+echo "Pre-commit checks passed."
