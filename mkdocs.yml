@@ -1,5 +1,7 @@
 site_name: SOC AI Relay
 site_url: https://docs.hellnet.com.br/soc-ai-relay/
+repo_url: https://github.com/hellnet-foundation/soc-ai-relay
+repo_name: soc-ai-relay
 site_dir: site
 
 theme:
