@@ -1,3 +1,8 @@
+---
+title: SOC AI Relay
+slug: /soc-ai-relay
+---
+
 # SOC AI Relay
 
 SOC AI Relay connects DFIR-IRIS alerts to a lightweight local AI summarizer and sends readable incident notifications to Discord.

@@ -1,3 +1,7 @@
+---
+title: Deployment
+---
+
 # Deployment
 
 SOC AI Relay runs as a Kubernetes Deployment.
