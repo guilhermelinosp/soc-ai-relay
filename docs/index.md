@@ -4,7 +4,7 @@ title: SOC AI Relay
 
 # SOC AI Relay
 
-Site estático do SOC AI Relay em GitHub Pages.
+Documentação oficial do SOC AI Relay.
 
 - Domínio: `docs.hellnet.com.br/soc-ai-relay`
 - Deploy: GitHub Actions
