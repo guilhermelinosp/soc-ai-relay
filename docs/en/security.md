@@ -2,9 +2,9 @@
 title: Security
 ---
 
-# Segurança
+# Security
 
-## Regras
+## Rules
 
 - Do not expose SOC AI Relay publicly.
 - Validate IRIS requests with a shared token.
@@ -13,8 +13,8 @@ title: Security
 - Do not allow the AI layer to execute response actions.
 - Do not use the AI layer to automatically close or downgrade incidents.
 
-## Comportamento da IA
+## AI behavior
 
-O sumarizador de IA não deve confirmar comprometimento sem evidência.
+The AI summarizer must not confirm compromise without evidence.
 
-Ele deve apenas resumir o alerta e recomendar validação manual.
+It should only summarize the alert and recommend manual validation.

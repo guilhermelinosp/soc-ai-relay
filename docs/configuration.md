@@ -2,19 +2,19 @@
 title: Configuration
 ---
 
-# Configuration
+# Configuração
 
-SOC AI Relay is configured using environment variables.
+SOC AI Relay é configurado por variáveis de ambiente.
 
-| Variable | Description |
+| Variável | Descrição |
 | --- | --- |
-| `LISTEN_ADDR` | HTTP listen address. Example: `0.0.0.0:8080` |
-| `IRIS_WEBHOOK_TOKEN` | Shared token used to validate IRIS webhook requests |
-| `OLLAMA_URL` | Ollama generate API URL |
-| `OLLAMA_MODEL` | Ollama model name |
-| `DISCORD_WEBHOOK_URL` | Discord webhook URL |
+| `LISTEN_ADDR` | Endereço HTTP. Ex.: `0.0.0.0:8080` |
+| `IRIS_WEBHOOK_TOKEN` | Token compartilhado para validar webhooks do IRIS |
+| `OLLAMA_URL` | URL da API de geração do Ollama |
+| `OLLAMA_MODEL` | Nome do modelo do Ollama |
+| `DISCORD_WEBHOOK_URL` | URL do webhook do Discord |
 
-## Example
+## Exemplo
 
 ```text
 LISTEN_ADDR=0.0.0.0:8080

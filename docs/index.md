@@ -1,11 +1,15 @@
 ---
 title: SOC AI Relay
-slug: /soc-ai-relay
 ---
 
 # SOC AI Relay
 
-SOC AI Relay connects DFIR-IRIS alerts to a lightweight local AI summarizer and sends readable incident notifications to Discord.
+Site estático do SOC AI Relay em GitHub Pages.
+
+- Domínio: `docs.hellnet.com.br/soc-ai-relay`
+- Deploy: GitHub Actions
+- Tema: Material for MkDocs
+- Estilo: dark, minimal, direto
 
 ## Flow
 
@@ -13,8 +17,8 @@ SOC AI Relay connects DFIR-IRIS alerts to a lightweight local AI summarizer and 
 Wazuh → DFIR-IRIS → SOC AI Relay → Ollama → Discord
 ```
 
-## Scope
+## Escopo
 
-SOC AI Relay summarizes and forwards alerts.
+SOC AI Relay resume e encaminha alertas.
 
-It does not execute response actions, close incidents, downgrade alerts, or make final security decisions.
+Não executa resposta automática, não encerra incidentes e não toma decisão final de segurança.

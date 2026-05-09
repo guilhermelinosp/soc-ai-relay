@@ -2,7 +2,7 @@
 title: Architecture
 ---
 
-# Architecture
+# Arquitetura
 
 ```text
 Wazuh VM
@@ -18,14 +18,14 @@ SOC AI Relay Pod
 Discord
 ```
 
-## Components
+## Componentes
 
-Wazuh handles detection.
+Wazuh faz a detecção.
 
-DFIR-IRIS handles alert and incident management.
+DFIR-IRIS faz a gestão de alertas e incidentes.
 
-SOC AI Relay receives IRIS webhooks, validates the request, calls Ollama, formats the response, and sends a Discord notification.
+SOC AI Relay recebe webhooks do IRIS, valida a requisição, chama o Ollama, formata a resposta e envia a notificação para o Discord.
 
-Ollama provides local AI summarization.
+Ollama fornece sumarização local com IA.
 
-Discord receives the final human-readable notification.
+Discord recebe a notificação final legível.

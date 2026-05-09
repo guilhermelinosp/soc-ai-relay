@@ -4,7 +4,7 @@ title: Setup
 
 # Setup
 
-## Requisitos
+## Requirements
 
 - Go
 - Docker
@@ -19,15 +19,15 @@ title: Setup
 http://192.168.1.100:11434/api/generate
 ```
 
-Modelo recomendado:
+Recommended model:
 
 ```text
 qwen2.5:1.5b
 ```
 
-## Validação
+## Validation
 
-De um node ou pod do Kubernetes, valide acesso ao Ollama:
+From a Kubernetes node or pod, validate access to Ollama:
 
 ```sh
 curl -s http://192.168.1.100:11434/api/tags

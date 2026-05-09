@@ -1,0 +1,42 @@
+site_name: SOC AI Relay
+site_url: https://docs.hellnet.com.br/soc-ai-relay/
+site_dir: site
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: black
+    accent: blue
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: pt
+          name: Português
+          default: true
+          build: true
+        - locale: en
+          name: English
+          build: true
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+
+nav:
+  - Início: index.md
+  - Visão geral:
+      - Arquitetura: architecture.md
+      - Setup: setup.md
+  - Operação:
+      - Configuração: configuration.md
+      - Deploy: deployment.md
+  - Segurança: security.md
+
+extra:
+  generator: false

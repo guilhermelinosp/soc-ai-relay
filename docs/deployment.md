@@ -2,9 +2,9 @@
 title: Deployment
 ---
 
-# Deployment
+# Deploy
 
-SOC AI Relay runs as a Kubernetes Deployment.
+SOC AI Relay roda como Deployment no Kubernetes.
 
 ```text
 IRIS webhook → Kubernetes Service/HTTPRoute → SOC AI Relay Pod
@@ -12,9 +12,9 @@ IRIS webhook → Kubernetes Service/HTTPRoute → SOC AI Relay Pod
 
 The pod calls the Ollama VM at `192.168.1.100:11434` and sends the final message to Discord.
 
-## Runtime flow
+## Fluxo de execução
 
-1. DFIR-IRIS sends an alert webhook to SOC AI Relay.
-2. SOC AI Relay validates the shared token.
-3. SOC AI Relay calls Ollama for summarization.
-4. SOC AI Relay sends the final embed to Discord.
+1. DFIR-IRIS envia um webhook de alerta para o SOC AI Relay.
+2. SOC AI Relay valida o token compartilhado.
+3. SOC AI Relay chama o Ollama para sumarização.
+4. SOC AI Relay envia o embed final ao Discord.
